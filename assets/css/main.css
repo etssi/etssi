@@ -3030,13 +3030,10 @@
 			display: inline-block;
 			margin-left: 4em;
 			padding: 0.65em;
-			border-radius: 100%;
-			border: solid 1px;
 		}
 
 			.spotlight .image img {
 				display: block;
-				border-radius: 100%;
 				width: 16em;
 			}
 
@@ -3280,6 +3277,7 @@
 
 		#nav + #main {
 			padding-top: 4.25em;
+			margin-bottom: 50px;
 		}
 
 		#nav ul {
@@ -3553,6 +3551,7 @@
 			}
 
 		#main ul.alt li {
+			text-align: left;
 			border-top-color: #dddddd;
 		}
 
@@ -3799,3 +3798,18 @@
 			}
 
 		}
+
+.hour {
+	display: inline-block;
+	margin-right: 20px;
+	font-weight: 700;
+	width: 200px;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.name {
+	font-weight: 700;
+}
